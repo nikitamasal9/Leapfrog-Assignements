@@ -91,6 +91,10 @@ table{
     box-shadow: 5px 0 5px -5px #a5a4a4,
     -5px 0 5px -5px #a5a4a4;
 }
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
 
 /* .action_btn{
     display: flex;
